@@ -94,7 +94,8 @@
     "*://www.assembla.com/*",
     "*://*.salesforce.com/*",
     "*://*.draftin.com/*",
-    "*://*.fogbugz.com/*"
+    "*://*.fogbugz.com/*",
+    "*://gitlab.indeviasistemas.es/*"
   ],
   "content_scripts": [
     {
@@ -159,7 +160,8 @@
         "*://www.assembla.com/*",
         "*://*.salesforce.com/*",
         "*://*.draftin.com/*",
-        "*://*.fogbugz.com/*"
+        "*://*.fogbugz.com/*",
+		"*://gitlab.indeviasistemas.es/*"
       ],
       "css": ["styles/style.css"],
       "js": ["scripts/common.js"]
@@ -194,7 +196,7 @@
       "js": ["scripts/content/github.js"]
     },
     {
-      "matches": ["*://*.gitlab.com/*"],
+      "matches": ["*://*.gitlab.com/*","*://gitlab.indeviasistemas.es/*"],
       "js": ["scripts/content/gitlab.js"]
     },
     {
